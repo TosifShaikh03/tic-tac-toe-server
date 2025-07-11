@@ -6,6 +6,7 @@ const server = http.createServer(app);
 const io = new Server(server, {
     cors: {
         origin: [
+            'https://tic-tac-toe-multiplayer-9jw0gax9h-tosif-shaikhs-projects.vercel.app',
             'https://tic-tac-toe-multiplayer-lhdhg5yj1-tosif-shaikhs-projects.vercel.app',
             'http://localhost:8000',
             'http://localhost:5500'
